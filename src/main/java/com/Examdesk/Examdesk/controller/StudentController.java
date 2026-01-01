@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class StudentController {
     @Autowired
     private StudentService studentService;
-    @GetMapping("/tests")
+    @GetMapping("/testss")
     public void addStudent(Student student) {
         studentService.addStudent(student);
 
